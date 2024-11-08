@@ -28,11 +28,37 @@ p {
     line-height: 1.5;
 }
 
+.color-grey{
+    color: grey;
+}
+
+h2 {
+    font-family: "Roboto", serif;
+    font-size: 40px;
+}
+
+.col-plane h3 {
+   padding-top: 20px;
+   padding-bottom: 20px;
+   font-size: 25px;
+}
+
+.col-plane h4 {
+    padding-top: 45px;
+    padding-bottom: 50px;
+    font-size: 18px;
+ }
 /*-----------
 CONTAINER
 ------------*/
 .container-large {
     max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-small {
+    max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -69,6 +95,9 @@ CONTAINER
 header {
     display: flex;
     justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 10;
 }
 header > .header-left {
     display: flex;
@@ -105,9 +134,9 @@ header > .header-right {
     padding-top: 50px;
 }
 
-.row {
+.row-hero {
     margin-top: 5px;
-    margin-bottom: 40px;
+    margin-bottom: 150px;
     display: flex;
     position: relative;
     bottom: -70px;
@@ -142,3 +171,89 @@ header > .header-right {
     bottom: 90px;
     left: 0px;
 }
+
+/*----------------
+    SECTION-PLANE
+------------------*/
+
+.choice {
+    padding-top: 50px;
+}
+
+.row-plane {
+    margin-top: 40px;
+    margin-bottom: 150px;
+    display: flex;
+    position: relative;
+    gap: 40px;
+}
+
+.col-plane {
+    width: calc (100% / 3);
+    position: relative;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.asw {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.nav-choice ul {
+    list-style: none;
+    gap: 20px;
+    
+    
+}
+
+.nav-choice ul li{
+   padding-bottom: 20px;;
+    
+    
+}
+
+.nav-choice ul a {
+    text-decoration: none;
+    color: inherit;   
+}
+
+.col-plane p {
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+
+.col-plane .btn {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.col-plane hr {
+    width: 25%;
+}
+
+
+.nav-choice-blu ul {
+    list-style: none;
+    gap: 20px;
+    
+    
+}
+
+.nav-choice-blu ul li{
+   padding-bottom: 20px;;
+    
+    
+}
+
+.nav-choice-blu ul a {
+    text-decoration: none;
+    color: inherit;   
+}
+
+
+.nav-choice-blu ul i {
+    color: blue;
+}
+
