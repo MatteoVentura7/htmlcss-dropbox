@@ -1,0 +1,63 @@
+/*----------------
+    RESET
+------------------*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*----------------
+    COMMONS
+------------------*/
+.img-fluid {
+    max-width: 100%;
+}
+
+/*----------------
+    HEADER
+------------------*/
+header {
+    display: flex;
+    justify-content: space-between;
+}
+header > .header-left {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    align-items: center;
+}
+
+header > .header-right {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    align-items: center;
+    
+}
+
+.btn {
+    background-color: transparent;
+    font-family: inherit;
+    border: none;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+.btn-blue {
+    background-color: #0061FE;
+    color: white;
+}
+
+
+.main-nav ul {
+    list-style: none;
+    display: flex;
+    
+    gap: 20px
+}
+
+.main-nav ul a {
+    text-decoration: none;
+    color: inherit
+}
