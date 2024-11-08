@@ -1,6 +1,7 @@
 /*----------------
     RESET
 ------------------*/
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -10,13 +11,61 @@
 /*----------------
     COMMONS
 ------------------*/
+
 .img-fluid {
     max-width: 100%;
 }
 
 /*----------------
+    TYPOGRAPHY
+------------------*/
+h1 {
+    font-family: "Roboto", serif;
+    font-size: 70px;
+}
+
+p {
+    line-height: 1.5;
+}
+
+/*-----------
+CONTAINER
+------------*/
+.container-large {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*----------------
+    BOTTONI
+------------------*/
+
+.btn {
+    background-color: transparent;
+    font-family: inherit;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-blue {
+    background-color: #0061FE;
+    color: white;
+    width: 210px;
+    padding: 13px;
+    text-align: center;
+}
+
+.btn-blue-header {
+    background-color: #0061FE;
+    color: white;
+    padding: 6px 12px;
+}
+
+/*----------------
     HEADER
 ------------------*/
+
 header {
     display: flex;
     justify-content: space-between;
@@ -36,28 +85,60 @@ header > .header-right {
     
 }
 
-.btn {
-    background-color: transparent;
-    font-family: inherit;
-    border: none;
-    padding: 6px 12px;
-    cursor: pointer;
-}
-
-.btn-blue {
-    background-color: #0061FE;
-    color: white;
-}
-
-
 .main-nav ul {
     list-style: none;
     display: flex;
-    
     gap: 20px
 }
 
 .main-nav ul a {
     text-decoration: none;
     color: inherit
+}
+
+/*----------------
+    SECTION-HERO
+------------------*/
+
+.hero {
+    background-color: #B4D0E6;
+    padding-top: 50px;
+}
+
+.row {
+    margin-top: 5px;
+    margin-bottom: 40px;
+    display: flex;
+    position: relative;
+    bottom: -70px;
+    gap: 1px;
+}
+
+.col-left {
+    width: calc (30%);
+    position: relative;
+}
+
+.col-right {
+    width: calc (70%);
+    position: relative;
+}
+
+.box-img {
+    width: 100%;
+}
+
+.col-left > :nth-child(3) {
+    padding-top: 20px;
+}
+
+.col-left > :nth-child(1) {
+    padding-bottom: 20px;
+} 
+
+.arrow-down {
+    font-size: 60px;
+    position: absolute;
+    bottom: 90px;
+    left: 0px;
 }
