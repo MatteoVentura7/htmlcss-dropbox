@@ -43,6 +43,12 @@ h2 {
    font-size: 25px;
 }
 
+.col-plane-big h3 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 25px;
+ }
+
 .col-plane h4 {
     padding-top: 45px;
     padding-bottom: 50px;
@@ -98,6 +104,7 @@ header {
     position: sticky;
     top: 0;
     z-index: 10;
+    background-color: white;
 }
 header > .header-left {
     display: flex;
@@ -182,7 +189,7 @@ header > .header-right {
 
 .row-plane {
     margin-top: 40px;
-    margin-bottom: 150px;
+    margin-bottom: 70px;
     display: flex;
     position: relative;
     gap: 40px;
@@ -191,7 +198,7 @@ header > .header-right {
 .col-plane {
     width: calc (100% / 3);
     position: relative;
-    border: 1px solid black;
+    border: 1px solid grey;
     padding: 20px;
 }
 
@@ -257,3 +264,21 @@ header > .header-right {
     color: blue;
 }
 
+
+.col-plane-big {
+    width: 100%;
+    position: relative;
+    border: 1px solid grey;
+    padding: 20px;
+}
+
+.spaz {
+    padding-bottom: 50px;
+}
+
+.pos-btn {
+    
+    position: absolute;
+    top: 62px;
+    right: 20px;
+}
