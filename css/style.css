@@ -60,6 +60,12 @@ h2 {
     padding-bottom: 20px;
     font-size: 25px;
  }
+
+ .col-buisness h3 {
+    padding-top: 10px;
+    padding-bottom: 30px;
+    font-size: 25px;
+ }
 /*-----------
 CONTAINER
 ------------*/
@@ -305,7 +311,7 @@ header > .header-right {
 
 .row-partner {
     margin-top: 150px;
-    margin-bottom: 70px;
+    margin-bottom: 150px;
     display: flex;
     position: relative;
     gap: 40px;
@@ -320,3 +326,21 @@ header > .header-right {
     width: 40%;
     position: relative;
 }
+
+/*----------------
+    SECTION-BUISNESS
+------------------*/
+
+.row-buisness {
+    margin-top: 40px;
+    display: flex;
+    position: relative;
+    gap: 40px;
+}
+
+.col-buisness {
+    width: calc (100% / 3);
+    position: relative;
+    padding: 20px;
+}
+
