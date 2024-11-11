@@ -242,15 +242,18 @@ header > .header-right {
     width: calc(100% / 3);
     position: relative;
     border: 1px solid grey;
-    padding: 20px;
 }
 
 .asw {
     text-align: center;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-bottom: 1px solid grey;
 }
 
-
+.border {
+    padding: 20px;
+}
 
 .nav-choice ul {
     list-style: none;
@@ -322,7 +325,6 @@ header > .header-right {
     width: 100%;
     position: relative;
     border: 1px solid grey;
-    padding: 20px;
 }
 
 .spaz {
@@ -332,7 +334,7 @@ header > .header-right {
 .pos-btn {
     
     position: absolute;
-    top: 62px;
+    top: 85px;
     right: 20px;
 }
 
