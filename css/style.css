@@ -67,6 +67,12 @@ h2 {
     font-size: 25px;
  }
 
+ .col-footer h4 {
+    padding-top: 45px;
+    padding-bottom: 30px;
+    font-size: 25px;
+    color: white;
+ }
 
 /*-----------
 CONTAINER
@@ -240,8 +246,6 @@ header > .header-right {
 
 .nav-choice ul li{
    padding-bottom: 20px;;
-    
-    
 }
 
 .nav-choice ul a {
@@ -352,8 +356,57 @@ header > .header-right {
 
 .last-section {
     padding-top: 150px;
+    padding-bottom: 150px;
 }
 
 .last-section h2{
     padding-bottom: 60px;
+}
+
+/*----------------
+   FOOTER
+------------------*/
+
+footer {
+    background-color: black;
+    color: white;
+}
+.col-footer {
+    width: calc (100% / 5);
+    position: relative;
+    padding: 20px;
+}
+
+.row-footer {
+    margin-top: 40px;
+    margin-bottom: 60px;
+    display: flex;
+    position: relative;
+    gap: 40px;
+    justify-content: space-between;
+}
+
+.nav-footer ul {
+    list-style: none;
+    gap: 20px
+}
+
+.nav-footer ul a {
+    text-decoration: none;
+    color: grey;
+} 
+
+.nav-footer ul li{
+    padding-bottom: 15px;
+}
+
+.select-lenguage {
+    color: grey;
+    padding: 50px 20px;
+    line-height: 8;
+}
+
+footer hr {
+    width: 10%;
+    color: grey;
 }
