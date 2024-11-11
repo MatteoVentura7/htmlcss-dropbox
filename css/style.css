@@ -24,6 +24,10 @@ h1 {
     font-size: 70px;
 }
 
+body {
+    font-family: "Roboto", serif;
+}
+
 p {
     line-height: 1.5;
 }
@@ -98,6 +102,15 @@ CONTAINER
     font-family: inherit;
     border: none;
     cursor: pointer;
+}
+
+.btn-blue-col {
+    background-color: #0061FE;
+    color: white;
+    width: 100%;
+    padding: 13px;
+    text-align: center;
+  
 }
 
 .btn-blue {
@@ -226,7 +239,7 @@ header > .header-right {
 }
 
 .col-plane {
-    width: calc (100% / 3);
+    width: calc(100% / 3);
     position: relative;
     border: 1px solid grey;
     padding: 20px;
@@ -237,6 +250,8 @@ header > .header-right {
     padding-bottom: 10px;
 }
 
+
+
 .nav-choice ul {
     list-style: none;
     gap: 20px;
@@ -245,12 +260,17 @@ header > .header-right {
 }
 
 .nav-choice ul li{
-   padding-bottom: 20px;;
+   padding-bottom: 20px;
 }
 
 .nav-choice ul a {
     text-decoration: none;
-    color: inherit;   
+    color: inherit; 
+    display: flex;
+}
+
+.nav-choice ul i {
+   padding-right: 10px;
 }
 
 .col-plane p {
@@ -282,9 +302,14 @@ header > .header-right {
     
 }
 
+.nav-choice-blu ul i {
+    padding-right: 10px;
+ }
+
 .nav-choice-blu ul a {
     text-decoration: none;
-    color: inherit;   
+    color: inherit;  
+    display: flex; 
 }
 
 
