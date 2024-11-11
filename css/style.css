@@ -146,6 +146,7 @@ CONTAINER
     background-color: #979899;
     transition: 0.7s;
 }
+
 /*----------------
     HEADER
 ------------------*/
@@ -184,6 +185,10 @@ header > .header-right {
     color: inherit
 }
 
+header li:hover {
+    color: #0061FE;
+    transition: 0.7s;
+}
 /*----------------
     SECTION-HERO
 ------------------*/
