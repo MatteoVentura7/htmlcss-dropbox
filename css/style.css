@@ -137,6 +137,15 @@ CONTAINER
     margin-top: 35px;
 }
 
+.btn-eff:hover {
+    background-color: #002ead;
+    transition: 0.7s;
+}
+
+.btn-effect:hover {
+    background-color: #979899;
+    transition: 0.7s;
+}
 /*----------------
     HEADER
 ------------------*/
