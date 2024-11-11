@@ -66,6 +66,8 @@ h2 {
     padding-bottom: 30px;
     font-size: 25px;
  }
+
+
 /*-----------
 CONTAINER
 ------------*/
@@ -344,3 +346,14 @@ header > .header-right {
     padding: 20px;
 }
 
+/*----------------
+   LAST-SECTION
+------------------*/
+
+.last-section {
+    padding-top: 150px;
+}
+
+.last-section h2{
+    padding-bottom: 60px;
+}
