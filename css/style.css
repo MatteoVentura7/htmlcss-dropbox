@@ -208,12 +208,12 @@ header li:hover {
 }
 
 .col-left {
-    width: calc (30%);
+    width: 30%;
     position: relative;
 }
 
 .col-right {
-    width: calc (70%);
+    width: 70%;
     position: relative;
 }
 
